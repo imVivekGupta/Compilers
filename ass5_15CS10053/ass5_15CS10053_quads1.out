@@ -1,0 +1,181 @@
+Testing
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	1
+  1. :if  x <=t000	goto 4
+  2. :goto 7
+  3. :goto 18
+  4. :t001	=	1
+  5. :return	t001
+  6. :goto -1
+  7. :t002	=	1
+  8. :t003	=	x - t002
+  9. :param	t003
+ 10. :t004	=	call fib, 1
+ 11. :t005	=	2
+ 12. :t006	=	x - t005
+ 13. :param	t006
+ 14. :t007	=	call fib, 1
+ 15. :t008	=	t004 + t007
+ 16. :return	t008
+ 17. :goto -1
+ 18. :t009	=	& n
+ 19. :param	t009
+ 20. :t010	=	call readInt, 1
+ 21. :param	n
+ 22. :t011	=	call printInt, 1
+ 23. :param	_0
+ 24. :t012	=	call printStr, 1
+ 25. :t013	=	6
+ 26. :param	t013
+ 27. :t014	=	call fib, 1
+ 28. :n		=	t014
+ 29. :t015	=	t014
+ 30. :param	n
+ 31. :t016	=	call printInt, 1
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+fib	int	null		0	0	ptr-to-ST( fib )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : fib
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+x	int	null		4	-4	null
+t000	int	1		4	16	null
+t001	int	1		4	20	null
+t002	int	1		4	24	null
+t003	int	null		4	28	null
+t004	int	null		4	32	null
+t005	int	2		4	36	null
+t006	int	null		4	40	null
+t007	int	null		4	44	null
+t008	int	null		4	48	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+n	int	null		4	16	null
+t009	ptr(int)	null		4	20	null
+t010	int	null		4	24	null
+t011	int	null		4	28	null
+t012	int	null		4	32	null
+t013	int	6		4	36	null
+t014	int	null		4	40	null
+t015	int	null		4	44	null
+t016	int	null		4	48	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================================================================================
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : fib
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+x	int	null		4	-4	null
+t000	int	1		4	-8	null
+t001	int	1		4	-12	null
+t002	int	1		4	-16	null
+t003	int	null		4	-20	null
+t004	int	null		4	-24	null
+t005	int	2		4	-28	null
+t006	int	null		4	-32	null
+t007	int	null		4	-36	null
+t008	int	null		4	-40	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+n	int	null		4	-4	null
+t009	ptr(int)	null		4	-8	null
+t010	int	null		4	-12	null
+t011	int	null		4	-16	null
+t012	int	null		4	-20	null
+t013	int	6		4	-24	null
+t014	int	null		4	-28	null
+t015	int	null		4	-32	null
+t016	int	null		4	-36	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

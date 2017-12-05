@@ -1,0 +1,156 @@
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	3
+  1. :b		=	t000
+  2. :t001	=	2
+  3. :t002	=	b + t001
+  4. :a		=	t002
+  5. :t003	=	t002
+  6. :t004	=	a %% b
+  7. :b		=	t004
+  8. :t005	=	t004
+  9. :t006	=	8.900000
+ 10. :db2		=	t006
+ 11. :t007	=	Int2Double(a)
+ 12. :t008	=	t007 * db2
+ 13. :db1		=	t008
+ 14. :t009	=	t008
+ 15. :t010	=	& a
+ 16. :p1		=	t010
+ 17. :t011	=	* p1
+ 18. :if  t011 ==a	goto 21
+ 19. :goto 26
+ 20. :goto 31
+ 21. :t012	=	2
+ 22. :t013	=	a * t012
+ 23. :b		=	t013
+ 24. :t014	=	t013
+ 25. :goto 31
+ 26. :t015	=	3
+ 27. :t016	=	a * t015
+ 28. :b		=	t016
+ 29. :t017	=	t016
+ 30. :goto 31
+ 31. :t018	=	11
+ 32. :t019	=	2
+ 33. :t020	=	21
+ 34. :t021	=	21
+ 35. :t022	=	8
+ 36. :t023	=	7
+ 37. :t025	=	t023 * 8
+ 38. :t024	=	t022 + t025
+ 39. :t026	=	1
+ 40. :t028	=	t026 * 4
+ 41. :t027	=	t024 + t028
+ 42. :t029	=	arr[t027]
+ 43. :t030	=	arr[t027]
+ 44. :t030	=	t030 + 1
+ 45. :arr[t027]	=	t030
+ 46. :t031	=	2
+ 47. :t032	=	b << t031
+ 48. :leftsh	=	t032
+ 49. :t033	=	& b
+ 50. :p2		=	t033
+ 51. :t034	=	97
+ 52. :ch1		=	t034
+ 53. :t035	=	t034
+ 54. :t036	=	a + b
+ 55. :t037	=	Char2Int(ch1)
+ 56. :t038	=	t036 * t037
+ 57. :t039	=	Int2Double(t038)
+ 58. :t040	=	t039 + db2
+ 59. :sum		=	t040
+ 60. :t041	=	2.300000
+ 61. :db1		=	t041
+ 62. :t042	=	t041
+ 63. :t043	=	db2 / db1
+ 64. :db2		=	t043
+ 65. :t044	=	t043
+ 66. :t045	=	98
+ 67. :ch2		=	t045
+ 68. :t046	=	t045
+ 69. :t047	=	ch1
+ 70. :ch1	=	ch1 + 1
+ 71. :if  ch1 ==ch2	goto 74
+ 72. :goto -1
+ 73. :goto 77
+ 74. :sum	=	sum - 1
+ 75. :t048	=	sum
+ 76. :goto -1
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+a	int	null		3	3	null
+b	int	3		3	6	null
+t000	int	3		4	9	null
+t001	int	2		4	13	null
+t002	int	null		4	17	null
+t003	int	null		4	21	null
+t004	int	null		4	25	null
+t005	int	null		4	29	null
+db1	double	null		4	33	null
+db2	double	8.900000		4	37	null
+t006	double	8.900000		8	41	null
+t007	double	null		8	49	null
+t008	double	null		8	57	null
+t009	double	null		8	65	null
+p1	ptr(int)	----		5	73	null
+t010	ptr(int)	null		4	78	null
+t011	int	null		4	82	null
+t012	int	2		4	86	null
+t013	int	null		4	90	null
+t014	int	null		4	94	null
+t015	int	3		4	98	null
+t016	int	null		4	102	null
+t017	int	null		4	106	null
+arr	Matrix(11,2,double)	null		88	118	null
+t018	int	11		4	110	null
+t019	int	2		4	114	null
+brr	Matrix(21,21,double)	null		1764	214	null
+t020	int	21		4	206	null
+t021	int	21		4	210	null
+t022	int	8		4	1978	null
+t023	int	7		4	1982	null
+t024	int	null		4	1986	null
+t025	int	null		4	1990	null
+t026	int	1		4	1994	null
+t027	int	null		4	1998	null
+t028	int	null		4	2002	null
+t029	double	null		8	2006	null
+t030	double	null		8	2014	null
+leftsh	int	0		3	2022	null
+t031	int	2		4	2025	null
+t032	int	null		4	2029	null
+p2	ptr(ptr(int))	----		5	2033	null
+t033	ptr(int)	null		4	2038	null
+ch1	char	null		2	2042	null
+ch2	char	null		2	2044	null
+t034	char	a		1	2046	null
+t035	char	null		1	2047	null
+sum	double	0.000000		4	2048	null
+t036	int	null		4	2052	null
+t037	int	null		4	2056	null
+t038	int	null		4	2060	null
+t039	double	null		8	2064	null
+t040	double	null		8	2072	null
+t041	double	2.300000		8	2080	null
+t042	double	null		8	2088	null
+t043	double	null		8	2096	null
+t044	double	null		8	2104	null
+t045	char	b		1	2112	null
+t046	char	null		1	2113	null
+t047	char	null		1	2114	null
+t048	double	null		8	2115	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================================================================

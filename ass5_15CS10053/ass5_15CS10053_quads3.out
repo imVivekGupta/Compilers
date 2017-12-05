@@ -1,0 +1,226 @@
+Testing
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	2
+  1. :t001	=	3
+  2. :b		=	t001
+  3. :t002	=	t001
+  4. :param	b
+  5. :t003	=	call printInt, 1
+  6. :t004	=	& a
+  7. :param	t004
+  8. :t005	=	call readInt, 1
+  9. :t006	=	105
+ 10. :t007	=	107
+ 11. :t008	=	48
+ 12. :if  b >a	goto 15
+ 13. :goto 37
+ 14. :goto 59
+ 15. :if  c >d	goto 18
+ 16. :goto 27
+ 17. :goto 36
+ 18. :t009	=	sum + c
+ 19. :sum		=	t009
+ 20. :t010	=	t009
+ 21. :t011	=	Char2Int(sum)
+ 22. :t012	=	t011 + b
+ 23. :t013	=	Int2Char(t012)
+ 24. :sum		=	t013
+ 25. :t014	=	t013
+ 26. :goto -1
+ 27. :t015	=	sum + d
+ 28. :sum		=	t015
+ 29. :t016	=	t015
+ 30. :t017	=	Char2Int(sum)
+ 31. :t018	=	t017 + b
+ 32. :t019	=	Int2Char(t018)
+ 33. :sum		=	t019
+ 34. :t020	=	t019
+ 35. :goto -1
+ 36. :goto -1
+ 37. :if  c >d	goto 40
+ 38. :goto 49
+ 39. :goto 58
+ 40. :t021	=	sum + c
+ 41. :sum		=	t021
+ 42. :t022	=	t021
+ 43. :t023	=	Char2Int(sum)
+ 44. :t024	=	t023 + a
+ 45. :t025	=	Int2Char(t024)
+ 46. :sum		=	t025
+ 47. :t026	=	t025
+ 48. :goto -1
+ 49. :t027	=	sum + d
+ 50. :sum		=	t027
+ 51. :t028	=	t027
+ 52. :t029	=	Char2Int(sum)
+ 53. :t030	=	t029 + a
+ 54. :t031	=	Int2Char(t030)
+ 55. :sum		=	t031
+ 56. :t032	=	t031
+ 57. :goto -1
+ 58. :goto -1
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	2		4	16	null
+t000	int	2		4	20	null
+b	int	null		4	24	null
+t001	int	3		4	28	null
+t002	int	null		4	32	null
+t003	int	null		4	36	null
+t004	ptr(int)	null		4	40	null
+t005	int	null		4	44	null
+c	char	i		1	48	null
+t006	char	i		1	49	null
+d	char	k		1	50	null
+t007	char	k		1	51	null
+sum	char	0		1	52	null
+t008	char	0		1	53	null
+t009	char	null		1	54	null
+t010	char	null		1	55	null
+t011	int	null		4	56	null
+t012	int	null		4	60	null
+t013	char	null		1	64	null
+t014	char	null		1	65	null
+t015	char	null		1	66	null
+t016	char	null		1	67	null
+t017	int	null		4	68	null
+t018	int	null		4	72	null
+t019	char	null		1	76	null
+t020	char	null		1	77	null
+t021	char	null		1	78	null
+t022	char	null		1	79	null
+t023	int	null		4	80	null
+t024	int	null		4	84	null
+t025	char	null		1	88	null
+t026	char	null		1	89	null
+t027	char	null		1	90	null
+t028	char	null		1	91	null
+t029	int	null		4	92	null
+t030	int	null		4	96	null
+t031	char	null		1	100	null
+t032	char	null		1	101	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================================================================================
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	2		4	-4	null
+t000	int	2		4	-8	null
+b	int	null		4	-12	null
+t001	int	3		4	-16	null
+t002	int	null		4	-20	null
+t003	int	null		4	-24	null
+t004	ptr(int)	null		4	-28	null
+t005	int	null		4	-32	null
+c	char	i		1	-33	null
+t006	char	i		1	-34	null
+d	char	k		1	-35	null
+t007	char	k		1	-36	null
+sum	char	0		1	-37	null
+t008	char	0		1	-38	null
+t009	char	null		1	-39	null
+t010	char	null		1	-40	null
+t011	int	null		4	-44	null
+t012	int	null		4	-48	null
+t013	char	null		1	-49	null
+t014	char	null		1	-50	null
+t015	char	null		1	-51	null
+t016	char	null		1	-52	null
+t017	int	null		4	-56	null
+t018	int	null		4	-60	null
+t019	char	null		1	-61	null
+t020	char	null		1	-62	null
+t021	char	null		1	-63	null
+t022	char	null		1	-64	null
+t023	int	null		4	-68	null
+t024	int	null		4	-72	null
+t025	char	null		1	-73	null
+t026	char	null		1	-74	null
+t027	char	null		1	-75	null
+t028	char	null		1	-76	null
+t029	int	null		4	-80	null
+t030	int	null		4	-84	null
+t031	char	null		1	-85	null
+t032	char	null		1	-86	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

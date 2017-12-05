@@ -1,0 +1,125 @@
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	0
+  1. :j		=	t000
+  2. :t001	=	0
+  3. :k		=	t001
+  4. :t002	=	5
+  5. :sum		=	t002
+  6. :t003	=	10
+  7. :t004	=	10
+  8. :t005	=	2
+  9. :x		=	t005
+ 10. :t006	=	5
+ 11. :y		=	t006
+ 12. :t007	=	0
+ 13. :i		=	t007
+ 14. :t008	=	t007
+ 15. :if  i <sum	goto 21
+ 16. :goto 44
+ 17. :goto 44
+ 18. :t009	=	i
+ 19. :i	=	i + 1
+ 20. :goto 15
+ 21. :if  j <sum	goto 24
+ 22. :goto 40
+ 23. :goto 40
+ 24. :t010	=	8
+ 25. :t012	=	i * 40
+ 26. :t011	=	t010 + t012
+ 27. :t014	=	j * 4
+ 28. :t013	=	t011 + t014
+ 29. :t015	=	x + y
+ 30. :t016	=	Int2Double(t015)
+ 31. :a[t013]	=	t016
+ 32. :t017	=	t016
+ 33. :t018	=	x
+ 34. :x	=	x + 1
+ 35. :t019	=	y
+ 36. :y	=	y - 1
+ 37. :t020	=	j
+ 38. :j	=	j + 1
+ 39. :goto 21
+ 40. :t021	=	0
+ 41. :j		=	t021
+ 42. :t022	=	t021
+ 43. :goto 18
+ 44. :t023	=	0
+ 45. :sum		=	t023
+ 46. :t024	=	t023
+ 47. :t025	=	x + y
+ 48. :x		=	t025
+ 49. :t026	=	t025
+ 50. :t027	=	sum
+ 51. :sum	=	sum + 1
+ 52. :t028	=	0
+ 53. :if  sum >t028	goto 55
+ 54. :goto 59
+ 55. :t029	=	5
+ 56. :if  sum <t029	goto 47
+ 57. :goto 59
+ 58. :goto 59
+ 59. :t030	=	1
+ 60. :whiley	=	t030
+ 61. :goto 65
+ 62. :t031	=	whiley
+ 63. :whiley	=	whiley - 1
+ 64. :goto 61
+ 65. :if  whiley ==0	goto -1
+ 66. :goto 62
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+i	int	null		3	3	null
+j	int	0		3	6	null
+t000	int	0		4	9	null
+k	int	0		3	13	null
+t001	int	0		4	16	null
+sum	int	5		3	20	null
+t002	int	5		4	23	null
+a	Matrix(10,10,double)	null		400	35	null
+t003	int	10		4	27	null
+t004	int	10		4	31	null
+x	int	2		3	435	null
+t005	int	2		4	438	null
+y	int	5		3	442	null
+t006	int	5		4	445	null
+t007	int	0		4	449	null
+t008	int	null		4	453	null
+t009	int	null		4	457	null
+t010	int	8		4	461	null
+t011	int	null		4	465	null
+t012	int	null		4	469	null
+t013	int	null		4	473	null
+t014	int	null		4	477	null
+t015	int	null		4	481	null
+t016	double	null		8	485	null
+t017	double	null		8	493	null
+t018	int	null		4	501	null
+t019	int	null		4	505	null
+t020	int	null		4	509	null
+t021	int	0		4	513	null
+t022	int	null		4	517	null
+t023	int	0		4	521	null
+t024	int	null		4	525	null
+t025	int	null		4	529	null
+t026	int	null		4	533	null
+t027	int	null		4	537	null
+t028	int	0		4	541	null
+t029	int	5		4	545	null
+whiley	int	1		3	549	null
+t030	int	1		4	552	null
+t031	int	null		4	556	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================================================================

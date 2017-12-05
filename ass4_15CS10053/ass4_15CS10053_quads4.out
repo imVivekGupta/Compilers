@@ -1,0 +1,115 @@
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	97
+  1. :a		=	t000
+  2. :t001	=	98
+  3. :b		=	t001
+  4. :t002	=	99
+  5. :c		=	t002
+  6. :t003	=	2
+  7. :t004	=	3
+  8. :t005	=	1.000000
+  9. :t006	=	2.000000
+ 10. :t007	=	3.000000
+ 11. :t008	=	4.000000
+ 12. :t009	=	5.000000
+ 13. :t010	=	6.000000
+ 14. :dp		=	t005
+ 15. :t011	=	& a
+ 16. :d		=	t011
+ 17. :t012	=	9
+ 18. :k		=	t012
+ 19. :t013	=	10
+ 20. :t014	=	k + t013
+ 21. :l		=	t014
+ 22. :t015	=	50
+ 23. :i		=	t015
+ 24. :t016	=	& i
+ 25. :p		=	t016
+ 26. :t017	=	Int2Double(b)
+ 27. :t018	=	a * t017
+ 28. :ans		=	t018
+ 29. :t019	=	t018
+ 30. :return	ans
+ 31. :kt		=	b
+ 32. :t020	=	& c
+ 33. :p		=	t020
+ 34. :t021	=	Int2Double(a)
+ 35. :t022	=	t021 + b
+ 36. :t023	=	Double2Int(t022)
+ 37. :i		=	t023
+ 38. :return	c
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mult
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	double	null		4	0	null
+a	double	null		4	4	null
+b	int	null		3	8	null
+ans	double	null		4	11	null
+t017	double	null		8	15	null
+t018	double	null		8	23	null
+t019	double	null		8	31	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : garb
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	char	null		2	0	null
+a	int	null		3	2	null
+b	double	null		4	5	null
+c	char	null		2	9	null
+kt	double	0.000000		4	11	null
+p	ptr(char)	----		5	15	null
+t020	ptr(char)	null		4	20	null
+i	int	0		3	24	null
+t021	double	null		8	27	null
+t022	double	null		8	35	null
+t023	int	null		4	43	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		3	0	null
+a	char	a		2	3	null
+t000	char	a		1	5	null
+b	char	b		2	6	null
+t001	char	b		1	8	null
+c	char	c		2	9	null
+t002	char	c		1	11	null
+dp	Matrix(2,3,double)	{{.000000,2.000000,3.000000 ;4.000000,55000000,6.000000}		24	20	null
+t003	int	2		4	12	null
+t004	int	3		4	16	null
+t005	Matrix(double)	{{.000000,2.000000,3.000000 ;4.000000,55000000,6.000000}		8	44	null
+t006	double	2.000000		8	52	null
+t007	double	3.000000		8	60	null
+t008	double	0.000000		8	68	null
+t009	double	5.000000		8	76	null
+t010	double	6.000000		8	84	null
+d	ptr(char)	----		5	92	null
+t011	ptr(char)	null		4	97	null
+k	int	9		3	101	null
+t012	int	9		4	104	null
+l	int	0		3	108	null
+t013	int	10		4	111	null
+t014	int	null		4	115	null
+i	int	50		3	119	null
+t015	int	50		4	122	null
+p	ptr(int)	----		5	126	null
+t016	ptr(int)	null		4	131	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=============================================================================

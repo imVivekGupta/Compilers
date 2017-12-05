@@ -1,0 +1,342 @@
+Testing
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	97
+  1. :t001	=	98
+  2. :t002	=	99
+  3. :t003	=	2
+  4. :t004	=	3
+  5. :t005	=	1.000000
+  6. :t006	=	2.000000
+  7. :t007	=	3.000000
+  8. :t008	=	4.000000
+  9. :t009	=	5.000000
+ 10. :t010	=	6.000000
+ 11. :t011	=	2
+ 12. :t012	=	3
+ 13. :t013	=	6.000000
+ 14. :t014	=	5.900000
+ 15. :t015	=	3.900000
+ 16. :t016	=	3.000000
+ 17. :t017	=	2.000000
+ 18. :t018	=	1.000000
+ 19. :t019	=	2
+ 20. :t020	=	3
+ 21. :t021	=	3
+ 22. :t022	=	2
+ 23. :t023	=	8
+ 24. :t024	=	8
+ 25. :t025	=	8
+ 26. :t026	=	t024 + t025
+ 27. :C[t023]	=	t026
+ 28. :t027	=	t026
+ 29. :t028	=	8
+ 30. :t029	=	8
+ 31. :t030	=	8
+ 32. :t031	=	t029 - t030
+ 33. :C[t028]	=	t031
+ 34. :t032	=	t031
+ 35. :t033	=	8
+ 36. :t034	=	8
+ 37. :t035	=	8
+ 38. :t036	=	t034 * t035
+ 39. :C[t033]	=	t036
+ 40. :t037	=	t036
+ 41. :t038	=	8
+ 42. :t039	=	8
+ 43. :t040	=	,'t039
+ 44. :A_[t038]	=	t040
+ 45. :t041	=	t040
+ 46. :t042	=	& a
+ 47. :t043	=	9
+ 48. :t044	=	10
+ 49. :t045	=	k + t044
+ 50. :t046	=	50
+ 51. :t047	=	& i
+ 52. :t048	=	Int2Double(b)
+ 53. :t049	=	a * t048
+ 54. :ans		=	t049
+ 55. :t050	=	t049
+ 56. :return	ans
+ 57. :t051	=	& c
+ 58. :t052	=	Int2Double(a)
+ 59. :t053	=	t052 + b
+ 60. :return	c
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+mult	double	null		0	0	ptr-to-ST( mult )
+garb	char	null		0	0	ptr-to-ST( garb )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mult
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	double	null		8	0	null
+a	double	null		8	-8	null
+b	int	null		4	-12	null
+ans	double	null		8	16	null
+t048	double	null		8	24	null
+t049	double	null		8	32	null
+t050	double	null		8	40	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : garb
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	char	null		1	0	null
+a	int	null		4	-4	null
+b	double	null		8	-12	null
+c	char	null		1	-13	null
+kt	double	null		8	16	null
+p	ptr(char)	null		4	24	null
+t051	ptr(char)	null		4	28	null
+i	int	null		4	32	null
+t052	double	null		8	36	null
+t053	double	null		8	44	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	char	a		1	16	null
+t000	char	a		1	17	null
+b	char	b		1	18	null
+t001	char	b		1	19	null
+c	char	c		1	20	null
+t002	char	c		1	21	null
+A	Matrix(2,3,double)	null		48	30	null
+t003	int	2		4	22	null
+t004	int	3		4	26	null
+t005	Matrix(double)	1.000000,2.000000,3.000000 ;4.000000,5.000000,6.000000		8	78	null
+t006	double	2.000		8	86	null
+t007	double	3.000		8	94	null
+t008	double	0.000		8	102	null
+t009	double	5.000		8	110	null
+t010	double	6.000		8	118	null
+B	Matrix(2,3,double)	null		48	134	null
+t011	int	2		4	126	null
+t012	int	3		4	130	null
+t013	Matrix(double)	6.000000,5.900000,3.900000 ;3.000000,2.000000,1.000000		8	182	null
+t014	double	5.900		8	190	null
+t015	double	3.900		8	198	null
+t016	double	0.000		8	206	null
+t017	double	2.000		8	214	null
+t018	double	1.000		8	222	null
+C	Matrix(2,3,double)	null		48	238	null
+t019	int	2		4	230	null
+t020	int	3		4	234	null
+A_	Matrix(3,2,double)	null		48	294	null
+t021	int	3		4	286	null
+t022	int	2		4	290	null
+t023	int	8		4	342	null
+t024	int	8		4	346	null
+t025	int	8		4	350	null
+t026	Matrix(2,3,double)	null		48	354	null
+t027	Matrix(2,3,double)	null		48	402	null
+t028	int	8		4	450	null
+t029	int	8		4	454	null
+t030	int	8		4	458	null
+t031	Matrix(2,3,double)	null		48	462	null
+t032	Matrix(2,3,double)	null		48	510	null
+t033	int	8		4	558	null
+t034	int	8		4	562	null
+t035	int	8		4	566	null
+t036	Matrix(2,3,double)	null		48	570	null
+t037	Matrix(2,3,double)	null		48	618	null
+t038	int	8		4	666	null
+t039	int	8		4	670	null
+t040	Matrix(2,3,double)	null		48	674	null
+t041	Matrix(2,3,double)	null		48	722	null
+d	ptr(char)	null		4	770	null
+t042	ptr(char)	null		4	774	null
+k	int	9		4	778	null
+t043	int	9		4	782	null
+l	int	0		4	786	null
+t044	int	10		4	790	null
+t045	int	null		4	794	null
+i	int	50		4	798	null
+t046	int	50		4	802	null
+p	ptr(int)	null		4	806	null
+t047	ptr(int)	null		4	810	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================================================================================
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mult
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	double	null		8	0	null
+a	double	null		8	-12	null
+b	int	null		4	-4	null
+ans	double	null		8	-20	null
+t048	double	null		8	-28	null
+t049	double	null		8	-36	null
+t050	double	null		8	-44	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : garb
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	char	null		1	0	null
+a	int	null		4	-13	null
+b	double	null		8	-9	null
+c	char	null		1	-1	null
+kt	double	null		8	-21	null
+p	ptr(char)	null		4	-25	null
+t051	ptr(char)	null		4	-29	null
+i	int	null		4	-33	null
+t052	double	null		8	-41	null
+t053	double	null		8	-49	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	char	a		1	-1	null
+t000	char	a		1	-2	null
+b	char	b		1	-3	null
+t001	char	b		1	-4	null
+c	char	c		1	-5	null
+t002	char	c		1	-6	null
+A	Matrix(2,3,double)	null		48	-54	null
+t003	int	2		4	-58	null
+t004	int	3		4	-62	null
+t005	Matrix(double)	1.000000,2.000000,3.000000 ;4.000000,5.000000,6.000000		8	-70	null
+t006	double	2.000		8	-78	null
+t007	double	3.000		8	-86	null
+t008	double	0.000		8	-94	null
+t009	double	5.000		8	-102	null
+t010	double	6.000		8	-110	null
+B	Matrix(2,3,double)	null		48	-158	null
+t011	int	2		4	-162	null
+t012	int	3		4	-166	null
+t013	Matrix(double)	6.000000,5.900000,3.900000 ;3.000000,2.000000,1.000000		8	-174	null
+t014	double	5.900		8	-182	null
+t015	double	3.900		8	-190	null
+t016	double	0.000		8	-198	null
+t017	double	2.000		8	-206	null
+t018	double	1.000		8	-214	null
+C	Matrix(2,3,double)	null		48	-262	null
+t019	int	2		4	-266	null
+t020	int	3		4	-270	null
+A_	Matrix(3,2,double)	null		48	-318	null
+t021	int	3		4	-322	null
+t022	int	2		4	-326	null
+t023	int	8		4	-330	null
+t024	int	8		4	-334	null
+t025	int	8		4	-338	null
+t026	Matrix(2,3,double)	null		48	-386	null
+t027	Matrix(2,3,double)	null		48	-434	null
+t028	int	8		4	-438	null
+t029	int	8		4	-442	null
+t030	int	8		4	-446	null
+t031	Matrix(2,3,double)	null		48	-494	null
+t032	Matrix(2,3,double)	null		48	-542	null
+t033	int	8		4	-546	null
+t034	int	8		4	-550	null
+t035	int	8		4	-554	null
+t036	Matrix(2,3,double)	null		48	-602	null
+t037	Matrix(2,3,double)	null		48	-650	null
+t038	int	8		4	-654	null
+t039	int	8		4	-658	null
+t040	Matrix(2,3,double)	null		48	-706	null
+t041	Matrix(2,3,double)	null		48	-754	null
+d	ptr(char)	null		4	-758	null
+t042	ptr(char)	null		4	-762	null
+k	int	9		4	-766	null
+t043	int	9		4	-770	null
+l	int	0		4	-774	null
+t044	int	10		4	-778	null
+t045	int	null		4	-782	null
+i	int	50		4	-786	null
+t046	int	50		4	-790	null
+p	ptr(int)	null		4	-794	null
+t047	ptr(int)	null		4	-798	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

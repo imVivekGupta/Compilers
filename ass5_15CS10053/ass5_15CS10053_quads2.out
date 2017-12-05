@@ -1,0 +1,314 @@
+Testing
+==============================================================================
+	GENERATED QUADS	
+  0. :t000	=	2
+  1. :t001	=	5
+  2. :param	x
+  3. :param	y
+  4. :t002	=	call sum, 2
+  5. :param	x
+  6. :param	y
+  7. :t003	=	call mod, 2
+  8. :param	x
+  9. :param	y
+ 10. :t004	=	call mod_2, 2
+ 11. :if  md ==md_2	goto 14
+ 12. :goto 18
+ 13. :goto 22
+ 14. :t005	=	0
+ 15. :y		=	t005
+ 16. :t006	=	t005
+ 17. :goto 22
+ 18. :t007	=	1
+ 19. :y		=	t007
+ 20. :t008	=	t007
+ 21. :goto 22
+ 22. :param	x
+ 23. :param	y
+ 24. :t009	=	call mod_2, 2
+ 25. :t010	=	a + b
+ 26. :return	ans
+ 27. :t011	=	a %% b
+ 28. :return	ans
+ 29. :t012	=	0
+ 30. :if  b !=t012	goto 33
+ 31. :goto 37
+ 32. :goto 42
+ 33. :t013	=	a / b
+ 34. :ans		=	t013
+ 35. :t014	=	t013
+ 36. :goto 42
+ 37. :t015	=	1
+ 38. :t016	=	-t015
+ 39. :ans		=	t016
+ 40. :t017	=	t016
+ 41. :goto 42
+ 42. :return	ans
+ 43. :if  a >b	goto 46
+ 44. :goto 53
+ 45. :goto 60
+ 46. :param	a
+ 47. :param	b
+ 48. :t018	=	call divide, 2
+ 49. :t019	=	a - t018
+ 50. :ans		=	t019
+ 51. :t020	=	t019
+ 52. :goto 60
+ 53. :param	a
+ 54. :param	b
+ 55. :t021	=	call divide, 2
+ 56. :t022	=	b - t021
+ 57. :ans		=	t022
+ 58. :t023	=	t022
+ 59. :goto 60
+ 60. :return	ans
+==============================================================================Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : Global
+Name	Type	Initial Value	Size	Offset	Nested Table
+printInt	int	null		0	0	ptr-to-ST( Global )
+readInt	int	null		0	0	ptr-to-ST( Global )
+printFlt	double	null		0	0	ptr-to-ST( Global )
+readFlt	double	null		0	0	ptr-to-ST( Global )
+printStr	int	null		0	0	ptr-to-ST( Global )
+sum	int	null		0	0	ptr-to-ST( sum )
+mod	int	null		0	0	ptr-to-ST( mod )
+mod_2	int	null		0	0	ptr-to-ST( mod_2 )
+divide	int	null		0	0	ptr-to-ST( divide )
+main	int	null		0	0	ptr-to-ST( main )
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : sum
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-4	null
+b	int	null		4	-8	null
+ans	int	0		4	16	null
+t010	int	null		4	20	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mod
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-4	null
+b	int	null		4	-8	null
+ans	int	0		4	16	null
+t011	int	null		4	20	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mod_2
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-4	null
+b	int	null		4	-8	null
+ans	int	null		4	16	null
+t018	int	null		4	20	null
+t019	int	null		4	24	null
+t020	int	null		4	28	null
+t021	int	null		4	32	null
+t022	int	null		4	36	null
+t023	int	null		4	40	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : divide
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-4	null
+b	int	null		4	-8	null
+ans	int	null		4	16	null
+t012	int	0		4	20	null
+t013	int	null		4	24	null
+t014	int	null		4	28	null
+t015	int	1		4	32	null
+t016	int	null		4	36	null
+t017	int	null		4	40	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+x	int	2		4	16	null
+t000	int	2		4	20	null
+y	int	5		4	24	null
+t001	int	5		4	28	null
+sm	int	0		4	32	null
+t002	int	null		4	36	null
+md	int	0		4	40	null
+t003	int	null		4	44	null
+md_2	int	0		4	48	null
+t004	int	null		4	52	null
+t005	int	0		4	56	null
+t006	int	null		4	60	null
+t007	int	1		4	64	null
+t008	int	null		4	68	null
+t009	int	null		4	72	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==========================================================================================================================================================
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : sum
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-8	null
+b	int	null		4	-4	null
+ans	int	0		4	-12	null
+t010	int	null		4	-16	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mod
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-8	null
+b	int	null		4	-4	null
+ans	int	0		4	-12	null
+t011	int	null		4	-16	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : mod_2
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-8	null
+b	int	null		4	-4	null
+ans	int	null		4	-12	null
+t018	int	null		4	-16	null
+t019	int	null		4	-20	null
+t020	int	null		4	-24	null
+t021	int	null		4	-28	null
+t022	int	null		4	-32	null
+t023	int	null		4	-36	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : divide
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+a	int	null		4	-8	null
+b	int	null		4	-4	null
+ans	int	null		4	-12	null
+t012	int	0		4	-16	null
+t013	int	null		4	-20	null
+t014	int	null		4	-24	null
+t015	int	1		4	-28	null
+t016	int	null		4	-32	null
+t017	int	null		4	-36	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Symbol Table : main
+Name	Type	Initial Value	Size	Offset	Nested Table
+retVal	int	null		4	0	null
+x	int	2		4	-4	null
+t000	int	2		4	-8	null
+y	int	5		4	-12	null
+t001	int	5		4	-16	null
+sm	int	0		4	-20	null
+t002	int	null		4	-24	null
+md	int	0		4	-28	null
+t003	int	null		4	-32	null
+md_2	int	0		4	-36	null
+t004	int	null		4	-40	null
+t005	int	0		4	-44	null
+t006	int	null		4	-48	null
+t007	int	1		4	-52	null
+t008	int	null		4	-56	null
+t009	int	null		4	-60	null
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
